@@ -1,0 +1,29 @@
+import pandas as pd
+
+# Create a sample DataFrame
+data = {
+    'Name': ['John', 'Emma', 'Peter', 'Olivia', 'Michael'],
+    'Age': [25, 32, 28, 35, 30],
+    'City': ['New York', 'London', 'Paris', 'Berlin', 'Tokyo'],
+    'Salary': [50000, 60000, 55000, 70000, 65000]
+}
+
+df = pd.DataFrame(data)
+
+# Perform data manipulations and analysis
+print("Original DataFrame:")
+print(df)
+
+# Filter the DataFrame for people aged 30 and above
+filtered_df = df[df['Age'] >= 30]
+print("\nFiltered DataFrame:")
+print(filtered_df)
+
+# Calculate the average salary
+avg_salary = df['Salary'].mean()
+print("\nAverage Salary:", avg_salary)
+
+# Group the DataFrame by city and calculate the mean age and salary for each city
+grouped_df = df.groupby('City').agg({'Age': 'mean', 'Salary': 'mean'})
+print("\nGrouped DataFrame:")
+print(grouped_df)
