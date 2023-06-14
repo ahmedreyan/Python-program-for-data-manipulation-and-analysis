@@ -1,5 +1,4 @@
 import pandas as pd
-
 # Create a sample DataFrame
 data = {
     'Name': ['John', 'Emma', 'Peter', 'Olivia', 'Michael'],
