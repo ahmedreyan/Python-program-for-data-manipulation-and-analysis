@@ -13,3 +13,5 @@ Grouping the DataFrame: The program uses the groupby() function to group the Dat
 Displaying the results: The program uses print() statements to display the original DataFrame, the filtered DataFrame, the average salary, and the grouped DataFrame with the mean age and mean salary for each city.
 
 Pandas is a powerful library for data manipulation and analysis in Python. It provides a wide range of functions and methods for handling data in tabular form, similar to a spreadsheet. With Pandas, you can perform various operations such as filtering, sorting, grouping, merging, joining, aggregating, and visualizing data. It also offers flexible indexing and slicing capabilities for accessing specific subsets of data. The library is widely used in data analysis, data science, and machine learning tasks.
+Note:
+pandas is very good library for data analytics and working with datasets 
