@@ -1,9 +1,9 @@
 import pandas as pd
 # Create a sample DataFrame:
 data = {
-    'Name': ['John', 'Emma', 'Peter', 'Olivia', 'Michael'],
+    'Name': ['John', 'Rolex', 'Peter', 'Steve', 'Michael'],
     'Age': [25, 32, 28, 35, 30],
-    'City': ['New York', 'London', 'Paris', 'Berlin', 'Tokyo'],
+    'City': ['New York', 'London', 'Paris', 'Berlin', 'Delhi'],
     'Salary': [50000, 60000, 55000, 70000, 65000]
 }
 
